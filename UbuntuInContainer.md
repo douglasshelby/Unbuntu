@@ -12,6 +12,9 @@
 ## update the package sources and install lsb-core 
 `> apt update && apt install lsb-core`
 
+## install systemd
+`> apt install systemd`
+
 ## get ubuntu version
 `> lsb_release -a`
 
