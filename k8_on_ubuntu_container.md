@@ -1,3 +1,5 @@
+## run ubuntu docker image
+`> 
 ## update and upgrade apt
 `> apt update`
 `> apt upgrade`
@@ -7,3 +9,8 @@
 
 ## confirm docker
 `> docker --version`
+
+## enable docker service
+`> systemctl enable docker`
+
+## start docker service 
