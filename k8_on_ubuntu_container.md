@@ -1,5 +1,6 @@
 ## run ubuntu docker image
-`> 
+`> docker run -d --privileged my-ubuntu-22.04.3'
+
 ## update and upgrade apt
 `> apt update`
 `> apt upgrade`
@@ -13,4 +14,6 @@
 ## enable docker service
 `> systemctl enable docker`
 
-## start docker service 
+## add kubernetes signing key 
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add
+
